@@ -10,18 +10,16 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Permet de dire à haute voix la temperature d une sonde dans une piece...
+Permet de dire Ã  haute voix la temperature d une sonde dans une piece...
 Necessite Domoticz et Jarvis
 
 ## Usage
 ```
 You: Temperature Chambre
 Jarvis: La Temperature Chambre est de 26,6 Degres 35% d humidite
-
-
 ```
 
 Dans le Fichier config.sh la bonne url de votre Domoticz !!!
 
 ## Author
-[Jean-Bernard Hallez](https://github.com/Jean-Bernard-Hallez/jarvis-temperature)]
+[Jean-Bernard Hallez](https://github.com/Jean-Bernard-Hallez/jarvis-temperature)
