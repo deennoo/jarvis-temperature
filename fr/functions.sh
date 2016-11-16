@@ -1,7 +1,7 @@
 #!/bin/bash
 
-temperature() {
-    # $1: Pi�ce � Relev� Temp
+jv_pg_tp_temperature() {
+    # $1: Pièce à Relevé Temp
 
 local url="$relev_Tem_url" 
 
@@ -13,7 +13,7 @@ echo "$1 est de "
 
 	if [[ "$order" =~ .*$sdevice.* ]]; then
             local address="$(echo $Temp_piece | jq -r ".devices[] | select(.name==\"$device\") | .address")"
-echo "$(curl -s "http://JB:Positif13@78.206.93.225:8080/json.htm?type=devices&rid=$address" | jq -r '.result[0].Data' | sed "s/C/degrés/g" | sed "s/%/% d humidité/g")"
+echo "$(curl -s "http://JB:Positif13@78.206.93.225:8080/json.htm?type=devices&rid=$address" | jq -r '.result[0].Data' | sed "s/C/degrÃ©s/g" | sed "s/%/% d humiditÃ©/g")"
 
        return $?
         fi
