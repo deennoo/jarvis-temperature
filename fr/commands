@@ -1,1 +1,1 @@
-*TEMPERATURE*==say "je regarde..." && temperature "$order"
+*TEMPERATURE*==say "je regarde..." && jv_pg_tp_temperature "$order"
