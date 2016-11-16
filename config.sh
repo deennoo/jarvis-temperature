@@ -1,4 +1,10 @@
-relev_Tem_url="http://JB:Positif13@78.206.93.225:8080/json.htm?type=devices&rid=[ADDRESS]"
+#        mettre ici l'URL de votre domoticz expemple: 
+# relev_Tem_url="http://... ... ... .. /json.htm?type=devices&rid=[ADDRESS]"
+# Exemple:
+# relev_Tem_url="http://192.168.0.13:8080/json.htm?type=devices&rid=[ADDRESS]"
+
+
+relev_Tem_url="http://192.168.0.13:8080/json.htm?type=devices&rid=[ADDRESS]"
 
 
 Temp_piece='{ "devices":[
