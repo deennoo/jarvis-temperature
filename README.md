@@ -22,4 +22,4 @@ Jarvis: La Temperature Chambre est de 26,6 Degres 35% d humidite
 ```
 
 ## Author
-[Jean-Bernard Hallez](https://github.com/Jean-Bernard-Hallez/jarvis-plugin-math.git)
+[Jean-Bernard Hallez](https://github.com/Jean-Bernard-Hallez/jarvis-temperature)]
